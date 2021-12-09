@@ -108,12 +108,13 @@ class Home extends BaseController
     {
         $nama = $this->request->getVar('namaLengkap');
         $nik = $this->request->getVar('nik');
+        $data = [1];
 
         // mencari data vaksin dari database
 
         // Memasukkan data sertif ke variabel data
 
-        if () {
+        if ($nama) {
             // Kondisi setelah sudah Vaksin
             return view('users/periksa-sudah', $data);
         } else {
