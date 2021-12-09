@@ -52,11 +52,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font-awesome styles icon -->
 
+    <!-- custom styles -->
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/alur-styles.css" />
     <link rel="stylesheet" href="/assets/css/daftar-vaksin-styles.css" />
     <link rel="stylesheet" href="/assets/css/kebijkan-privasi-styles.css" />
-    <!-- custom styles -->
+    <link rel="stylesheet" href="/assets/css/periksa-belum-styles.css" />
+    <link rel="stylesheet" href="/assets/css/periksa-sudah-styles.css" />
 
     <!-- Favicon  -->
     <link rel="icon" href="/assets/img/icon/favicon.ico" />
@@ -191,6 +193,11 @@
 
     <script src="/assets/js/scripts.js"></script>
     <!-- Custom scripts -->
+    <!-- Custom scripts -->
+    <script>
+        // zoom
+        mediumZoom(".zoom", {});
+    </script>
 </body>
 
 </html>

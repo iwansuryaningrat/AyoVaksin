@@ -103,4 +103,22 @@ class Home extends BaseController
 
         return view('users/riwayat', $data);
     }
+
+    public function periksa()
+    {
+        $nama = $this->request->getVar('namaLengkap');
+        $nik = $this->request->getVar('nik');
+
+        // mencari data vaksin dari database
+
+        // Memasukkan data sertif ke variabel data
+
+        if () {
+            // Kondisi setelah sudah Vaksin
+            return view('users/periksa-sudah', $data);
+        } else {
+            // Kondisi Belum Vaksin
+            return view('users/periksa-belum', $data);
+        }
+    }
 }
