@@ -93,4 +93,14 @@ class Home extends BaseController
 
         return view('users/penyedia-vaksin', $data);
     }
+
+    public function riwayat()
+    {
+        $data = [
+            'title' => 'Riwayat Kami | AyoVaksin',
+            'tab' => 'riwayat'
+        ];
+
+        return view('users/riwayat', $data);
+    }
 }

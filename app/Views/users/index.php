@@ -189,7 +189,7 @@
     </div> <!-- end ourhis body -->
 
     <div class="ourhis__btn">
-      <a href="riwayat" class="d-flex align-items-center"><span>Lebih Banyak</span><i class="bi bi-arrow-right-short"></i></a>
+      <a href="/home/riwayat" class="d-flex align-items-center"><span>Lebih Banyak</span><i class="bi bi-arrow-right-short"></i></a>
     </div>
   </div> <!-- end container -->
 </div>
