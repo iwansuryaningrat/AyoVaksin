@@ -198,6 +198,25 @@
         // zoom
         mediumZoom(".zoom", {});
     </script>
+
+    <?php if ($tab == 'register') : ?>
+        <script>
+            // categoryAccount
+            function categoryAccount() {
+                var categry = $("#selectCategory").val();
+
+                if (categry == "penyedia") {
+                    $(".instansi").removeClass('d-none');
+                    $(".nama__peserta").addClass('d-none');
+                } else {
+                    $(".nama__peserta").removeClass('d-none');
+                    $(".instansi").addClass('d-none');
+                }
+            }
+
+            $("#selectCategory").change(categoryAccount);
+        </script>
+    <?php endif; ?>
 </body>
 
 </html>
