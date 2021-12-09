@@ -11,7 +11,7 @@ use App\Models\TiketModel;
 use App\Models\UsersModel;
 use App\Models\VaksinModel;
 
-class Home extends BaseController
+class Edit extends BaseController
 {
     protected $pendaftaranModel;
     protected $penerimavaksinModel;
@@ -32,35 +32,5 @@ class Home extends BaseController
         $this->tiketModel = new TiketModel();
         $this->usersModel = new UsersModel();
         $this->vaksinModel = new VaksinModel();
-    }
-
-    public function index()
-    {
-        $data = [
-            'title' => 'Home | AyoVaksin',
-            'tab' => 'home'
-        ];
-
-        return view('users/index', $data);
-    }
-
-    public function alur()
-    {
-        $data = [
-            'title' => 'Alur | AyoVaksin',
-            'tab' => 'alur'
-        ];
-
-        return view('users/alur', $data);
-    }
-
-    public function daftarVaksin()
-    {
-        $data = [
-            'title' => 'Daftar Vaksin | AyoVaksin',
-            'tab' => 'vaksin'
-        ];
-
-        return view('users/daftar-vaksin', $data);
     }
 }

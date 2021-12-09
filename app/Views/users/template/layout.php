@@ -75,20 +75,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar__nav ms-auto">
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link <?php if ($tab == 'home') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                    endif; ?> href="/"><span>Home</span></a>
+                            <a class="nav-link nav__link <?php if ($tab == 'home') : echo 'active';
+                                                            endif; ?>" href="/"><span>Home</span></a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link <?php if ($tab == 'alur') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                    endif; ?> href="/home/alur"><span>Alur</span></a>
+                            <a class="nav-link nav__link <?php if ($tab == 'alur') : echo 'active';
+                                                            endif; ?>" href="/home/alur"><span>Alur</span></a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link <?php if ($tab == 'vaksin') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                        endif; ?> href="daftar-vaksin"><span>Daftar Vaksin</span></a>
+                            <a class="nav-link nav__link <?php if ($tab == 'vaksin') : echo 'active';
+                                                            endif; ?>" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link <?php if ($tab == 'privasi') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                        endif; ?> href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
+                            <a class="nav-link nav__link <?php if ($tab == 'privasi') : echo 'active';
+                                                            endif; ?>" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
                         </li>
                     </ul>
                     <!-- end navbar nav -->
