@@ -63,4 +63,14 @@ class Home extends BaseController
 
         return view('users/daftar-vaksin', $data);
     }
+
+    public function saran()
+    {
+        $data = [
+            'title' => 'Kotak Saran | Ayovaksin',
+            'tab' => 'saran'
+        ];
+
+        return view('users/saran', $data);
+    }
 }
