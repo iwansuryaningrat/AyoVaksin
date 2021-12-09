@@ -7,8 +7,7 @@
   <div class="container">
     <div class="header__content">
       <h1 class="header__mb">Cari Sentra Vaksin di Dekatmu</h1>
-      <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem fugiat
-        temporibus culpa ratione in libero quas accusantium ea iusto, facere ullam eos.</p>
+      <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem fugiat temporibus culpa ratione in libero quas accusantium ea iusto, facere ullam eos.</p>
     </div>
     <!-- end header content -->
   </div>
@@ -188,6 +187,6 @@
   </div>
   <!-- end container -->
 </div>
-<!-- end daftar vaksin section -->
+<!-- end daftar vaksin section -->>
 
 <?= $this->endSection(); ?>

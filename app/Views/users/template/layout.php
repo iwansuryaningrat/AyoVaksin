@@ -53,8 +53,8 @@
     <!-- font-awesome styles icon -->
 
     <link rel="stylesheet" href="/assets/css/styles.css" />
-
     <link rel="stylesheet" href="/assets/css/alur-styles.css" />
+    <link rel="stylesheet" href="/assets/css/daftar-vaksin-styles.css" />
     <!-- custom styles -->
 
     <!-- Favicon  -->
@@ -86,17 +86,17 @@
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'vaksin') : echo 'active';
-                                                            endif; ?>" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
+                                                            endif; ?>" href="/home/daftarvaksin"><span>Daftar Vaksin</span></a>
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'privasi') : echo 'active';
-                                                            endif; ?>" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
+                                                            endif; ?>" href="/home/kebijakanprivasi"><span>Kebijakan Privasi</span></a>
                         </li>
                     </ul>
                     <!-- end navbar nav -->
 
                     <div class="navbar-nav">
-                        <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
+                        <a href="/home/login" class="nav-link nav__link btn__nav">Login</a>
                     </div>
                     <!-- end navbar nav btn nav -->
                 </div>
@@ -125,7 +125,7 @@
                     <div class="col-sm-8 col-12 d-flex justify-content-end">
                         <div class="foot__content">
                             <p>AyoVaksin dikembangkan untuk melayani masyarakat dalam rangka menghentikan rantai Coronavirus Disease (COVID-19). Kami membantu instansi-instansi yang terkait dalam program vaksinasi di Indonesia. Menjadikan proses vaksinasi berjalan lancar dan merata demi terwujudnya Indonesia bebas corona.</p>
-                            <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
+                            <a class="main__btn btn__saran mt-3" href="/home/saran">Kotak Saran</a>
                         </div>
                     </div>
                     <!-- end desc foot -->
@@ -141,13 +141,13 @@
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="alur">Alur</a>
+                                <a href="/home/alur">Alur</a>
                             </li>
                             <li>
-                                <a href="daftar-vaksin">Daftar Vaksin</a>
+                                <a href="/home/daftarvaksin">Daftar Vaksin</a>
                             </li>
                             <li>
-                                <a href="kebijakan-privasi">Kebijakan Privasi</a>
+                                <a href="/home/kebijakanprivasi">Kebijakan Privasi</a>
                             </li>
                         </ul>
                         <p class="font__second">Save yourself to save others.</p>
