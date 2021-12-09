@@ -173,7 +173,7 @@
                 <input type="submit" class="btn kp__btn" value="Daftar">
               </div>
             </form>
-            <p class="text-center">Sudah punya akun AyoVaksin? <a href="login-akun.html" class="masuk__btn">Masuk</a></p>
+            <p class="text-center">Sudah punya akun AyoVaksin? <a href="/home/login" class="masuk__btn">Masuk</a></p>
           </div>
         </div> <!-- end row -->
       </div> <!-- end sign in section -->
