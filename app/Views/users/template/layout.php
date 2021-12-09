@@ -205,7 +205,7 @@
             function categoryAccount() {
                 var categry = $("#selectCategory").val();
 
-                if (categry == "penyedia") {
+                if (categry == "2") {
                     $(".instansi").removeClass('d-none');
                     $(".nama__peserta").addClass('d-none');
                 } else {

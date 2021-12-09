@@ -33,4 +33,14 @@ class Daftar extends BaseController
         $this->usersModel = new UsersModel();
         $this->vaksinModel = new VaksinModel();
     }
+
+    public function register()
+    {
+        if ($this->request->getVar('kategori') == 1) {
+            $nama = $this->request->getVar('namaDepan') . $this->request->getVar('namaBelakang');
+        }
+
+        dd($nama);
+        $data = [];
+    }
 }
