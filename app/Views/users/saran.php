@@ -17,18 +17,18 @@
 <div class="av__b">
   <div class="container">
     <div class="saran__section">
-      <form action="" method="post" class="row g-3">
+      <form action="/add/addsaran" method="post" class="row g-3">
         <div class="col-sm-6 my-2">
-          <input type="text" class="me-lg-2 me-sm-1 me-0 form-control form__control shadow-none" id="name" placeholder="Nama Lengkap" required>
+          <input type="text" class="me-lg-2 me-sm-1 me-0 form-control form__control shadow-none" id="name" name="name" placeholder="Nama Lengkap" required>
         </div>
         <div class="col-sm-6 my-2">
-          <input type="email" class="ms-lg-2 ms-sm-1 ms-0 form-control form__control shadow-none" id="email" placeholder="Email" required>
+          <input type="email" class="ms-lg-2 ms-sm-1 ms-0 form-control form__control shadow-none" id="email" name="email" placeholder="Email" required>
         </div>
         <div class="col-sm-6 my-2">
-          <input type="text" class="me-lg-2 me-sm-1 me-0 form-control form__control shadow-none" id="phone" placeholder="Nomor Telepon" required>
+          <input type="text" class="me-lg-2 me-sm-1 me-0 form-control form__control shadow-none" id="phone" name="phone" placeholder="Nomor Telepon" required>
         </div>
         <div class="col-sm-6 my-2">
-          <select class="ms-lg-2 ms-sm-1 ms-0 form-select shadow-none form__control">
+          <select class="ms-lg-2 ms-sm-1 ms-0 form-select shadow-none form__control" id="subject" name="subject">
             <option selected>Pilih Subjek</option>
             <option value="Saran">Saran</option>
             <option value="Vaksinasi">Vaksinasi</option>

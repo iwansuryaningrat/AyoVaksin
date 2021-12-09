@@ -33,4 +33,19 @@ class Add extends BaseController
         $this->usersModel = new UsersModel();
         $this->vaksinModel = new VaksinModel();
     }
+
+    public function addsaran()
+    {
+        $data = [
+            'nama' => $this->request->getVar('name'),
+            'email' => $this->request->getVar('email'),
+            'no_telp' => $this->request->getVar('phone'),
+            'subject' => $this->request->getVar('subject'),
+            'pesan' => $this->request->getVar('pesan')
+        ];
+
+        $this->saranModel->insert($data);
+
+        return redirect()->to('/home/saran');
+    }
 }
