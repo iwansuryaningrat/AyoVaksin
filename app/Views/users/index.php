@@ -51,7 +51,7 @@
   <div class="container">
     <div class="check__card">
       <h4 class="text-center title__mb">Periksa apakah anda sudah melakukan vaksinasi!</h4>
-      <form action="" method="post" class="check__form">
+      <form action="/home/periksa" method="post" class="check__form">
         <div class="check__form__content">
           <!-- left -->
           <div class="left__card">
