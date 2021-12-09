@@ -27,7 +27,7 @@
   <!-- to have large image post format in Twitter -->
 
   <!-- Webpage Title -->
-  <title>Form Sign In | AyoVaksin</title>
+  <title><?= $title; ?></title>
 
   <!-- apple touch icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icon/apple-touch-icon-57x57.png" />
@@ -78,19 +78,19 @@
               <a class="nav-link nav__link" aria-current="page" href="/"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="/home/alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="/home/daftaraksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link" href="/home/kebijakanprivasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
+            <a href="/home/login" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -149,7 +149,7 @@
                 <input type="submit" class="btn kp__btn" value="Daftar">
               </div>
             </form>
-            <p class="text-center">Sudah punya akun AyoVaksin? <a href="login-akun" class="masuk__btn">Masuk</a></p>
+            <p class="text-center">Sudah punya akun AyoVaksin? <a href="/home/login" class="masuk__btn">Masuk</a></p>
           </div>
         </div> <!-- end row -->
       </div> <!-- end sign in section -->
@@ -192,13 +192,13 @@
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="alur">Alur</a>
+                <a href="/home/alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin">Daftar Vaksin</a>
+                <a href="/home/daftarvaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi">Kebijakan Privasi</a>
+                <a href="/home/kebijakanprivasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>

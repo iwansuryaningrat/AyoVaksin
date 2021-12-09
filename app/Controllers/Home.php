@@ -122,4 +122,24 @@ class Home extends BaseController
             return view('users/periksa-belum', $data);
         }
     }
+
+    public function login()
+    {
+        $data = [
+            'title' => 'Form Log In | AyoVaksin',
+            'tab' => 'login'
+        ];
+
+        return view('users/login-akun', $data);
+    }
+
+    public function register()
+    {
+        $data = [
+            'title' => 'Sign In | AyoVaksin',
+            'tab' => 'register'
+        ];
+
+        return view('users/register', $data);
+    }
 }

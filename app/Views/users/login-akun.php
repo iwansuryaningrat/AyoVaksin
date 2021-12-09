@@ -88,7 +88,7 @@
             </div>
           </form>
 
-          <p class="text-center mb-0">Belum punya akun AyoVaksin? <a href="register" class="masuk__btn">Daftar</a>
+          <p class="text-center mb-0">Belum punya akun AyoVaksin? <a href="/home/register" class="masuk__btn">Daftar</a>
           </p>
         </div>
       </div>
