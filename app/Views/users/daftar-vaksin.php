@@ -187,6 +187,6 @@
   </div>
   <!-- end container -->
 </div>
-<!-- end daftar vaksin section -->>
+<!-- end daftar vaksin section -->
 
 <?= $this->endSection(); ?>

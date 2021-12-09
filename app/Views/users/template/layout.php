@@ -55,6 +55,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/alur-styles.css" />
     <link rel="stylesheet" href="/assets/css/daftar-vaksin-styles.css" />
+    <link rel="stylesheet" href="/assets/css/kebijkan-privasi-styles.css" />
     <!-- custom styles -->
 
     <!-- Favicon  -->

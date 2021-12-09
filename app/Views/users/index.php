@@ -13,13 +13,13 @@
           <div class="jumbotron__btn row">
             <div class="col-md-6 col-12 mb-lg-0 mb-sm-4">
               <div class="d-flex align-items-center">
-                <a class="main__btn" href="daftar-vaksin">Saya ingin vaksinasi</a>
+                <a class="main__btn" href="/home/daftarvaksin">Saya ingin vaksinasi</a>
               </div>
             </div>
             <!-- end btn left -->
             <div class="col-md-6 col-12 mb-lg-0 mb-sm-4">
               <div class="d-flex align-items-center">
-                <a class="ideas__btn" href="alur">
+                <a class="ideas__btn" href="/home/alur">
                   <i class="fi fi-br-bulb d-flex"></i>
                   <span>Cara kerja AyoVaksin</span>
                 </a>

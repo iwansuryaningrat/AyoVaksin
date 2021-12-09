@@ -73,4 +73,14 @@ class Home extends BaseController
 
         return view('users/saran', $data);
     }
+
+    public function kebijakanprivasi()
+    {
+        $data = [
+            'title' => 'Kebijakan Privasi | Ayovaksin',
+            'tab' => 'peivasi'
+        ];
+
+        return view('users/kebijakan-privasi', $data);
+    }
 }
