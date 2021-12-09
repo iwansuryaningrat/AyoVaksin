@@ -1,63 +1,47 @@
-# CodeIgniter 4 Application Starter
+# 💉 AyoVaksin Project
 
-## What is CodeIgniter?
+AyoVaksin merupakan aplikasi berbasis web yang digunakan untuk membantu proses vaksinasi dapat berjalan lancar dan mudah untuk mengakses vaksinasi yang tersedia. AyoVaksin (Front End) ini dibuat dengan **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, **JavaScript**, **Bootstrap v.5** etc.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+## 📛 Badges
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootsrtap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Folder Structure:
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+```
+📦summberjaya-furniture-admin.github.io
+ ┣ 📂assets
+ ┃ ┣ 📂css
+ ┃ ┃ ┗ 📜...
+ ┃ ┣ 📂img
+ ┃ ┃ ┗ 📜...
+ ┃ ┣ 📂js
+ ┃ ┃ ┗ 📜...
+ ┃ ┗ 📂vendor
+ ┃   ┗ 📂...
+ ┣ 📜alur.html
+ ┣ 📜daftar-vaksin.html
+ ┣ 📜index.html
+ ┣ 📜kebijakan-privasi.html
+ ┗ 📜README.md
+```
 
-## Installation & updates
+## 🎯 Features
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- Responsives all devices
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## 👨‍💻 Teams
 
-## Setup
+- [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
+- [Khoeru Roziqin](https://github.com/roziqinkhoeru)
+- [Musa Alfian Maulana](https://github.com/musaalfian)
+- [Ronny Dominikus](https://github.com/)
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## 🏨 Used By
 
-## Important Change with index.php
+Projek ini ditujukan untuk memenuhi _Tugas Besar_ pada matakuliah Proyek Perangkat Lunak Semester 5 Informatika Universitas Diponegoro
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+**Ayo Vaksin. Save yourself to save others.**
