@@ -76,7 +76,7 @@
                     <ul class="navbar-nav navbar__nav ms-auto">
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'home') : echo 'active';
-                                                            endif; ?>" href="/"><span>Home</span></a>
+                                                            endif; ?>" aria-current="page" href="/"><span>Home</span></a>
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'alur') : echo 'active';
