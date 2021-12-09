@@ -78,9 +78,19 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Kebijakan Privasi | Ayovaksin',
-            'tab' => 'peivasi'
+            'tab' => 'privasi'
         ];
 
         return view('users/kebijakan-privasi', $data);
+    }
+
+    public function penyediavaksin()
+    {
+        $data = [
+            'title' => 'Bantu Vaksinasi | AyoVaksin',
+            'tab' => 'vaksin'
+        ];
+
+        return view('users/penyedia-vaksin', $data);
     }
 }
