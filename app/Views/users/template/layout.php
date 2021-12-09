@@ -84,17 +84,17 @@
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'vaksin') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                        endif; ?> href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+                                                                                                        endif; ?> href="daftar-vaksin"><span>Daftar Vaksin</span></a>
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link <?php if ($tab == 'privasi') : echo 'active'; ?>" <?= 'aria - current = "page"';
-                                                                                                        endif; ?> href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+                                                                                                        endif; ?> href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
                         </li>
                     </ul>
                     <!-- end navbar nav -->
 
                     <div class="navbar-nav">
-                        <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+                        <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
                     </div>
                     <!-- end navbar nav btn nav -->
                 </div>
@@ -122,11 +122,8 @@
 
                     <div class="col-sm-8 col-12 d-flex justify-content-end">
                         <div class="foot__content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget in faucibus sed ullamcorper risus aliquam senectus nulla. Nullam lacus donec gravida massa a malesuada rhoncus. In sit orci, massa mollis. Condimentum aliquam,
-                                amet, duis blandit orci, imperdiet eget sollicitudin elementum.
-                            </p>
-                            <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+                            <p>AyoVaksin dikembangkan untuk melayani masyarakat dalam rangka menghentikan rantai Coronavirus Disease (COVID-19). Kami membantu instansi-instansi yang terkait dalam program vaksinasi di Indonesia. Menjadikan proses vaksinasi berjalan lancar dan merata demi terwujudnya Indonesia bebas corona.</p>
+                            <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
                         </div>
                     </div>
                     <!-- end desc foot -->
@@ -142,13 +139,13 @@
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="alur.html">Alur</a>
+                                <a href="alur">Alur</a>
                             </li>
                             <li>
-                                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                                <a href="daftar-vaksin">Daftar Vaksin</a>
                             </li>
                             <li>
-                                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                                <a href="kebijakan-privasi">Kebijakan Privasi</a>
                             </li>
                         </ul>
                         <p class="font__second">Save yourself to save others.</p>

@@ -63,7 +63,7 @@
   <div class="nav__section position-sticky">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
       <div class="container-fluid nav__fluid">
-        <a class="navbar-brand" href="index.html"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
+        <a class="navbar-brand" href="/"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
         <!-- end navbar brand -->
 
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,22 +74,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar__nav ms-auto">
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" aria-current="page" href="index.html"><span>Home</span></a>
+              <a class="nav-link nav__link" aria-current="page" href="/"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur.html"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link active" href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link active" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -106,11 +106,7 @@
     <div class="container">
       <div class="header__content">
         <h1 class="header__mb">Kebijakan Privasi</h1>
-        <p class="desc__header">
-          AyoVaksin akan menginformasikan tentang hal-hal penting mengenai Kebijakan Kerahasiaan data pengguna pada aplikasi PeduliLindungi. Mulai dari bagaimana kami mengolah dan menggunakannya akan disampaikan secara poin-poin pada
-          Kebijakan Kerahasiaan ini. Perlu diperhatikan, dengan mendaftarkan ke/dan menggunakan aplikasi kami, Anda mengakui secara sadar bahwa Anda telah membaca serta menyetujui Kebijakan Kerahasiaan ini serta memberikan persetujuan
-          atas pengumpulan, penggunaan dan pengolahan data sesuai dengan Kebijakan Kerahasiaan ini dan/ atau syarat penggunaan.
-        </p>
+        <p class="desc__header">AyoVaksin akan menginformasikan tentang hal-hal penting mengenai Kebijakan Kerahasiaan data pengguna pada aplikasi PeduliLindungi. Mulai dari bagaimana kami mengolah dan menggunakannya. Perlu diperhatikan, dengan mendaftarkan ke/dan menggunakan aplikasi kami, Anda mengakui secara sadar bahwa Anda telah membaca serta menyetujui Kebijakan Kerahasiaan ini serta memberikan persetujuan atas pengumpulan, penggunaan dan pengolahan data sesuai kebijakan tersebut.</p>
       </div> <!-- end header content -->
     </div> <!-- end container -->
   </div>
@@ -126,16 +122,10 @@
           <div class="kebijakan__deskripsi">
             <ol type="a">
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Pada pemakaian Ayo Vaksin,anda akan memilih waktu dan tempat vaksin akan diselenggarakan.
               </li>
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Ayo Vaksin akan menyediakan fitur pembuatan tiket untuk diselenggarakannya vaksin.
               </li>
             </ol>
           </div> <!-- end kebijakan deskripsi -->
@@ -148,16 +138,10 @@
           <div class="kebijakan__deskripsi">
             <ol type="a">
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Ayo Vaksin mengumpulkan data pribadi untuk keperluan dalam menyelenggarakan vaksin,data pribadi yang dikumpulkan terkait registrasi.
               </li>
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Demi keamanan pengguna diharapkan memberi kepercayaan pada Ayo Vaksin atas data-data anda.
               </li>
             </ol>
           </div> <!-- end kebijakan deskripsi -->
@@ -170,16 +154,10 @@
           <div class="kebijakan__deskripsi">
             <ol type="a">
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Data Pribadi Pengguna yang disimpan dalam Ayo Vaksin telah melalui proses verifikasi dan terenkripsi selama layanan beroperasi.
               </li>
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, voluptates omnis odio, similique optio sapiente doloribus accusamus temporibus, iusto ex molestiae voluptate molestias nobis. Aliquid voluptas
-                voluptatibus sequi vitae!
+                Apabila Ayo Vaksin sudah tidak beroperasi, Ayo Vaksin berhak menyimpan dan menggunakan Data Pribadi Pengguna sesuai dengan ketentuan perundang- undangan yang berlaku minimal 5 (lima) tahun.
               </li>
             </ol>
           </div> <!-- end kebijakan deskripsi -->
@@ -278,7 +256,7 @@
       <div class="footer__section">
         <div class="row foot__top">
           <div class="col-sm-4 col-12 flex">
-            <a href="index.html" class="d-flex align-items-center justify-content-start">
+            <a href="/" class="d-flex align-items-center justify-content-start">
               <img class="foot__img" src="/assets/img/logo-foot.svg" alt="..." />
             </a>
           </div>
@@ -291,7 +269,7 @@
                 amet, duis blandit orci, imperdiet eget sollicitudin elementum.
               </p>
 
-              <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+              <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
             </div>
           </div>
           <!-- end desc foot -->
@@ -304,16 +282,16 @@
           <div class="col-md-6 col-sm-12 flex__left">
             <ul class="foot__navlink">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="alur.html">Alur</a>
+                <a href="alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                <a href="daftar-vaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                <a href="kebijakan-privasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>

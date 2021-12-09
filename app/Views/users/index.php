@@ -13,13 +13,13 @@
           <div class="jumbotron__btn row">
             <div class="col-md-6 col-12 mb-lg-0 mb-sm-4">
               <div class="d-flex align-items-center">
-                <a class="main__btn" href="daftar-vaksin.html">Saya ingin vaksinasi</a>
+                <a class="main__btn" href="daftar-vaksin">Saya ingin vaksinasi</a>
               </div>
             </div>
             <!-- end btn left -->
             <div class="col-md-6 col-12 mb-lg-0 mb-sm-4">
               <div class="d-flex align-items-center">
-                <a class="ideas__btn" href="alur.html">
+                <a class="ideas__btn" href="alur">
                   <i class="fi fi-br-bulb d-flex"></i>
                   <span>Cara kerja AyoVaksin</span>
                 </a>
@@ -92,10 +92,7 @@
       </div>
       <div class="col-lg-6 col-12">
         <h2 class="title__mb">Vaksin itu <span class="txt__second">Penting</span></h2>
-        <p class="fz__news">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Penatibus interdum interdum malesuada vitae, bibendum pellentesque tristique elementum. Sed augue in et mauris urna vitae fringilla ridiculus lorem. Aliquet morbi
-          posuere tortor, mattis est justo sed etiam enim. Vitae fringilla id quisque nulla. Purus et tincidunt sollicitudin morbi ornare ac velit blandit sit. Aliquet at integer adipiscing sit augue sit ac odio.
-        </p>
+        <p class="fz__news">Vaksin merupakan salah satu cara terpenting dan tepat guna untuk mencegah penyakit dan menjaga kondisi tubuh. Vaksin atau imunisasi, mengambil keuntungan dari fungsi unik yang dimiliki tubuh dalam mempelajari dan melawan kuman-kuman penyebab penyakit. Vaksin membantu menciptakan kekebalan tubuh untuk melindungi Anda dari infeksi tanpa mengakibatkan efek samping yang membahayakan sehingga dapat melawan segala jenis penyakit, dari yang ringan hingga sangat serius.</p>
       </div>
     </div>
     <!-- end news section -->
@@ -130,12 +127,9 @@
       <div class="row">
         <div class="col-lg-8 col-12">
           <h1 class="title__mb text-white hyphens__auto">Bantu kami <span class="txt__second">memperluas</span> vaksinasi</h1>
-          <p class="mb-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et felis sed leo ut amet, egestas. Dolor ipsum nunc quam amet, sociis sed. In aliquam fermentum dolor facilisi non maecenas accumsan magna. Faucibus ut blandit
-            ipsum scelerisque velit.
-          </p>
+          <p class="mb-4 text-white">Anda dapat membantu kami untuk meperluas dan mempercepat vaksinasi di Indonesia agar semua orang dapat terhindar dari Covid-19, klik selanjutnya!</p>
           <div class="d-flex align-items-center">
-            <a href="penyedia-vaksin.html" class="s__btn">
+            <a href="penyedia-vaksin" class="s__btn">
               <span>Selengkapnya</span>
               <i class="bi bi-arrow-right-short"></i>
             </a>
@@ -158,7 +152,7 @@
   <div class="container">
     <div class="ourhis__head">
       <h2 class="title__mb">Riwayat Kami</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices enim adipiscing tincidunt nulla. Cras duis sed ultrices cursus pretium, auctor adipiscing nec. A nulla amet, volutpat, morbi at congue aliquam vitae consequat. Eu maecenas leo gravida dolor elit ut semper. In molestie quis turpis lectus. Odio in enim, ac amet, nunc. Consectetur sed nunc.</p>
+      <p>Beberapa pihak penyelenggara vaksin telah menggunakan AyoVaksin sebagai sarana proses vaksinasi. Dengan daya tarik AyoVaksin pihak penyelenggara sangat puas menggunakan layanan kami. Berikut beberapa penyelenggaraan vaksinasi dengan menggunakan yang pernah diselenggarakan menggunakan AyoVaksin.</p>
     </div> <!-- end ourhis head -->
 
     <div class="ourhis__body">
@@ -195,7 +189,7 @@
     </div> <!-- end ourhis body -->
 
     <div class="ourhis__btn">
-      <a href="riwayat.html" class="d-flex align-items-center"><span>Lebih Banyak</span><i class="bi bi-arrow-right-short"></i></a>
+      <a href="riwayat" class="d-flex align-items-center"><span>Lebih Banyak</span><i class="bi bi-arrow-right-short"></i></a>
     </div>
   </div> <!-- end container -->
 </div>

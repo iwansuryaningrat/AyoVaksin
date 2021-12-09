@@ -147,8 +147,20 @@ h6 {
   color: var(--light);
 }
 
+.txt__main {
+  color: var(--main) !important;
+}
+
 .txt__second {
   color: var(--second) !important;
+}
+
+.txt__second2 {
+  color: var(--second2) !important;
+}
+
+.txt__dark {
+  color: var(--dark) !important;
 }
 
 .main__btn {
@@ -215,7 +227,7 @@ h6 {
 
 .btn__nav {
   margin-left: 30px;
-  padding: var(--p-btn) !important;
+  padding: 12px 36px !important;
 
   transition: var(--global-trans);
 
@@ -370,6 +382,53 @@ footer .foot__content p {
 i.scroll__up:hover {
   color: var(--main);
   box-shadow: 0 0 20px 2.5px rgba(0, 0, 0, .3);
+}
+
+/* backhome */
+.back__home {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 9px;
+  border-radius: .5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  background-color: var(--white);
+  z-index: 100;
+  transition: var(--global-trans);
+  display: none;
+}
+
+.back__home i {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main);
+  transition: var(--global-trans);
+}
+
+.back__home:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.back__home:hover i {
+  color: var(--dark);
+}
+
+.back__tHome {
+  font-size: var(--fz-2);
+  color: var(--white);
+  position: absolute;
+  right: 3rem;
+  bottom: 3rem;
+  padding: 0 0 2px;
+  border-bottom: 2px solid var(--white);
+  transition: var(--global-trans);
+}
+
+.back__tHome:hover {
+  color: var(--second);
+  border-bottom: 2px solid var(--second);
 }
 
 /*************************************/
@@ -671,6 +730,7 @@ i.scroll__up:hover {
 }
 
 .saran__section .form__control,
+.login__section .form__control,
 .signin__section .form__control {
   background-color: var(--light);
 }
@@ -694,13 +754,11 @@ i.scroll__up:hover {
   background-color: var(--dark);
 }
 
-/****************************************/
-/*               REGISTER               */
-/****************************************/
-.signin__section {
-  padding: 60px 100px;
-  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .1);
-  border-radius: var(--b-lg-rad);
+/**********************************************/
+/*               REGISTER/LOGIN               */
+/**********************************************/
+.login__section {
+  min-height: 100vh;
 }
 
 .masuk__btn {
@@ -713,32 +771,52 @@ i.scroll__up:hover {
   color: var(--second);
 }
 
-.icon__wrap {
-  width: 30px;
-  height: 30px;
+.left__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 72%;
+  margin: auto;
+  padding: 0 12px;
+}
+
+.left__login .mb-4 p {
+  font-size: 18px;
+}
+
+.right__login {
+  height: 100%;
   background-color: var(--main);
-  border-radius: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.icon__wrap i {
-  color: var(--white);
-  font-size: 16px;
+.form__label {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .8);
 }
 
-.icon__wrap2 {
-  /* height: 36px;
-  width: 36px; */
-  padding: 5px;
-  border-radius: 30px;
-  border: 3px solid var(--main);
+.left__login form input {
+  font-size: 1rem;
+}
+
+.glass__login {
+  width: 48%;
+  padding: 3rem;
+  border-radius: var(--b-lg-rad);
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(2rem);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
 }
 
+.signin__section {
+  margin: auto;
+  width: 72%;
+}
 
 /******************************************/
 /*               RESPONSIVE               */
@@ -827,6 +905,10 @@ i.scroll__up:hover {
     border-radius: 10px;
   }
 
+  .back__home {
+    display: block;
+  }
+
   /****************************************/
   /*               VARIABLE               */
   /****************************************/
@@ -889,7 +971,7 @@ i.scroll__up:hover {
 
   /* help */
   .help__card {
-    height: 56rem;
+    height: 53rem;
   }
 
   .help__img {
@@ -911,6 +993,9 @@ i.scroll__up:hover {
   /****************************************/
   /*               REGISTER               */
   /****************************************/
+  .signin__section {
+    width: 84%;
+  }
 }
 
 /*=============== mobile view ===============*/
@@ -1020,6 +1105,12 @@ i.scroll__up:hover {
     font-size: 14px;
   }
 
+  /* backhome */
+  .back__home {
+    top: .75rem;
+    right: .75rem;
+  }
+
   /****************************************/
   /*               VARIABLE               */
   /****************************************/
@@ -1084,7 +1175,7 @@ i.scroll__up:hover {
   /* help */
   .help__card {
     padding: 48px 40px;
-    height: 49rem;
+    height: 45rem;
   }
 
   .help__img {
@@ -1115,6 +1206,24 @@ i.scroll__up:hover {
   /****************************************/
   /*               REGISTER               */
   /****************************************/
+  .left__login ,
+  .signin__section {
+    width: 78%;
+  }
+
+  .left__login .mb-4 p {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .form__label {
+    font-size: 1rem;
+  }
+
+  .left__login form input,
+  .signin__section .row form .form__control {
+    font-size: 14px;
+  }
 }
 
 /* mobile view s */
@@ -1124,7 +1233,7 @@ i.scroll__up:hover {
   /*************************************/
   /* help  */
   .help__card {
-    height: 45rem;
+    height: 42rem;
   }
 
   .help__img {

@@ -64,7 +64,7 @@
   <div class="nav__section position-sticky">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
       <div class="container-fluid nav__fluid">
-        <a class="navbar-brand" href="index.html"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
+        <a class="navbar-brand" href="/"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
         <!-- end navbar brand -->
 
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,22 +75,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar__nav ms-auto">
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" aria-current="page" href="index.html"><span>Home</span></a>
+              <a class="nav-link nav__link" aria-current="page" href="/"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur.html"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -106,8 +106,8 @@
   <div class="header__section">
     <div class="container">
       <div class="header__content">
-        <h1 class="header__mb">Sign In</h1>
-        <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis quod doloremque aut iure corporis perspiciatis pariatur quaerat, optio, voluptatibus harum quidem.</p>
+        <h1 class="header__mb">Daftar</h1>
+        <p class="desc__header">Daftarkan akun baru Anda untuk mendapatkan vaksinasi yang mudah dan nyaman.</p>
       </div> <!-- end header content -->
     </div> <!-- end container -->
   </div>
@@ -117,87 +117,39 @@
   <div class="av__b">
     <div class="container">
       <div class="signin__section">
-        <div class="row g-3">
-          <div class="col-sm-6 col-12">
+        <div class="row">
+          <div class="col-12">
             <form action="" method="post" class="row g-3 mb-4">
-              <div class="col-12 my-2">
-                <input type="text" class="form-control form__control shadow-none" id="name" placeholder="Nama Lengkap" required>
+              <div class="col-sm-6 co-12 my-2">
+                <label for="namaDepan" class="form-label form__label mt-2 mb-sm-3 mb-2">Nama Depan</label>
+                <input type="text" class="form-control form__control shadow-none" id="namaDepan" placeholder="Masukkan Nama Depan" required>
               </div>
-              <div class="col-12 my-2">
-                <input type="email" class="form-control form__control shadow-none" id="email" placeholder="Email" required>
+
+              <div class="col-sm-6 col-12 my-2">
+                <label for="namaBelakang" class="form-label form__label mt-2 mb-sm-3 mb-2">Nama Belakang</label>
+                <input type="text" class="form-control form__control shadow-none" id="namaBelakang" placeholder="Masukkan Nama Belakang" required>
               </div>
+
               <div class="col-12 my-2">
-                <input type="password" class="form-control form__control shadow-none" id="password" placeholder="Password" required>
+                <label for="email" class="form-label form__label mt-2 mb-sm-3 mb-2">Email</label>
+                <input type="email" class="form-control form__control shadow-none" id="email" placeholder="Masukkan Alamat Emal" required>
               </div>
+
+              <div class="col-12 my-2">
+                <label for="password" class="form-label form__label mt-2 mb-sm-3 mb-2">Password</label>
+                <input type="password" class="form-control form__control shadow-none" id="password" placeholder="Masukkan Password" required>
+              </div>
+
+              <div class="col-12 my-2">
+                <label for="konfirmPassword" class="form-label form__label mt-2 mb-sm-3 mb-2">Konfirmasi Password</label>
+                <input type="password" class="form-control form__control shadow-none" id="confirmPassword" placeholder="Masukkan Konfirmasi Password" required>
+              </div>
+
               <div class="col-12 mt-4 d-flex justify-content-center align-items-center">
                 <input type="submit" class="btn kp__btn" value="Daftar">
               </div>
             </form>
-            <p class="text-center">Sudah punya akun AyoVaksin? <a href="login-akun.html" class="masuk__btn">Masuk</a></p>
-          </div>
-
-          <div class="col-sm-6 col-12">
-            <div class="row">
-              <!-- step1 -->
-              <div>
-                <div class="row">
-                  <div class="col-2">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <div class="icon__wrap2">
-                        <div class="icon__wrap">
-                          <i class="far fa-user d-flex align-items-center"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-10">
-                    <h6>Akun</h6>
-                    <p>Daftar atau masuk akun AyoVaksin untuk mengakses informasi mengenai vaksin Anda.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end step1 -->
-
-              <!-- step2 -->
-              <div>
-                <div class="row">
-                  <div class="col-2">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <div class="icon__wrap2">
-                        <div class="icon__wrap">
-                          <i class="far fa-file-alt d-flex align-items-center"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-10">
-                    <h6>Lengkapi Data</h6>
-                    <p>Lengkapi formulir dengan mengisikan data diri Anda.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end step2 -->
-
-              <!-- step3 -->
-              <div>
-                <div class="row">
-                  <div class="col-2">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <div class="icon__wrap2">
-                        <div class="icon__wrap">
-                          <i class="far fa-map d-flex align-items-center"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-10">
-                    <h6>Atur Jadwal</h6>
-                    <p>Pilih jadwal dan lokasi vaksin Anda sesuai dengan jadwal yang tersedia.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end step3 -->
-            </div>
+            <p class="text-center">Sudah punya akun AyoVaksin? <a href="login-akun" class="masuk__btn">Masuk</a></p>
           </div>
         </div> <!-- end row -->
       </div> <!-- end sign in section -->
@@ -211,7 +163,7 @@
       <div class="footer__section">
         <div class="row foot__top">
           <div class="col-sm-4 col-12 flex">
-            <a href="index.html" class="d-flex justify-content-start align-items-center">
+            <a href="/" class="d-flex justify-content-start align-items-center">
               <img class="foot__img" src="/assets/img/logo-foot.svg" alt="..." />
             </a>
           </div>
@@ -224,7 +176,7 @@
                 amet, duis blandit orci, imperdiet eget sollicitudin elementum.
               </p>
 
-              <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+              <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
             </div>
           </div>
           <!-- end desc foot -->
@@ -237,16 +189,16 @@
           <div class="col-md-6 col-sm-12 flex__left">
             <ul class="foot__navlink">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="alur.html">Alur</a>
+                <a href="alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                <a href="daftar-vaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                <a href="kebijakan-privasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>

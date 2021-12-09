@@ -64,7 +64,7 @@
   <div class="nav__section position-sticky">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
       <div class="container-fluid nav__fluid">
-        <a class="navbar-brand" href="index.html"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
+        <a class="navbar-brand" href="/"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
         <!-- end navbar brand -->
 
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,22 +75,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar__nav ms-auto">
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" aria-current="page" href="index.html"><span>Home</span></a>
+              <a class="nav-link nav__link" aria-current="page" href="/"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur.html"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -154,7 +154,7 @@
       <div class="footer__section">
         <div class="row foot__top">
           <div class="col-sm-4 col-12 flex">
-            <a href="index.html" class="d-flex justify-content-start align-items-center">
+            <a href="/" class="d-flex justify-content-start align-items-center">
               <img class="foot__img" src="/assets/img/logo-foot.svg" alt="..." />
             </a>
           </div>
@@ -167,7 +167,7 @@
                 amet, duis blandit orci, imperdiet eget sollicitudin elementum.
               </p>
 
-              <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+              <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
             </div>
           </div>
           <!-- end desc foot -->
@@ -180,16 +180,16 @@
           <div class="col-md-6 col-sm-12 flex__left">
             <ul class="foot__navlink">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="alur.html">Alur</a>
+                <a href="alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                <a href="daftar-vaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                <a href="kebijakan-privasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>

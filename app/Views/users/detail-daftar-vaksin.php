@@ -145,7 +145,7 @@
 
       <!-- button -->
       <div class="btn__section">
-        <a href="daftar-vaksin.html">
+        <a href="daftar-vaksin">
           <div class="btn__batal">
             <div class="btn btn__light">Batal</div>
           </div>

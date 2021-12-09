@@ -64,7 +64,7 @@
   <div class="nav__section position-sticky">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
       <div class="container-fluid nav__fluid">
-        <a class="navbar-brand" href="index.html"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
+        <a class="navbar-brand" href="/"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
         <!-- end navbar brand -->
 
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,22 +75,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar__nav ms-auto">
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" aria-current="page" href="index.html"><span>Home</span></a>
+              <a class="nav-link nav__link" aria-current="page" href="/"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur.html"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -107,7 +107,9 @@
     <div class="container">
       <div class="header__content">
         <h1 class="header__mb">Riwayat Kami</h1>
-        <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis quod doloremque aut iure corporis perspiciatis pariatur quaerat, optio, voluptatibus harum quidem.</p>
+        <p class="desc__header">Beberapa pihak penyelenggara vaksin telah menggunakan AyoVaksin sebagai sarana proses
+          vaksinasi. Dengan daya tarik AyoVaksin pihak penyelenggara sangat puas menggunakan layanan kami. Berikut
+          beberapa penyelenggaraan vaksinasi dengan menggunakan yang pernah diselenggarakan menggunakan AyoVaksin.</p>
       </div> <!-- end header content -->
     </div> <!-- end container -->
   </div>
@@ -122,7 +124,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 1</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>01 September 2021</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>01 September 2021</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>456 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -132,7 +135,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 2</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>10 November 2021</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>10 November 2021</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>670 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -142,7 +146,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 3</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>20 Desember 2021</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>20 Desember 2021</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>1000 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -152,7 +157,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 4</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>22 Desember 2021</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>22 Desember 2021</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>456 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -162,7 +168,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 5</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>27 Desember 2021</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>27 Desember 2021</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>670 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -172,7 +179,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 6</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>3 Januari 2022</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>3 Januari 2022</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>1000 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -182,7 +190,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 7</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>14 Januari 2022</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>14 Januari 2022</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>670 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -192,7 +201,8 @@
           <h5 class="text-white">Penyelenggara Vaksin 8</h5>
           <!-- service body -->
           <div class="service__body">
-            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>19 Januari 2022</span></div>
+            <div class="d-flex align-items-center"><i class="far fa-calendar-check"></i><span>19 Januari 2022</span>
+            </div>
             <div class="d-flex align-items-center"><i class="far fa-address-card"></i><span>1000 orang</span></div>
           </div>
         </div> <!-- end service card -->
@@ -208,7 +218,7 @@
       <div class="footer__section">
         <div class="row foot__top">
           <div class="col-sm-4 col-12 flex">
-            <a href="index.html" class="d-flex justify-content-start align-items-center">
+            <a href="/" class="d-flex justify-content-start align-items-center">
               <img class="foot__img" src="/assets/img/logo-foot.svg" alt="..." />
             </a>
           </div>
@@ -217,11 +227,13 @@
           <div class="col-sm-8 col-12 d-flex justify-content-end">
             <div class="foot__content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget in faucibus sed ullamcorper risus aliquam senectus nulla. Nullam lacus donec gravida massa a malesuada rhoncus. In sit orci, massa mollis. Condimentum aliquam,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget in faucibus sed ullamcorper risus aliquam
+                senectus nulla. Nullam lacus donec gravida massa a malesuada rhoncus. In sit orci, massa mollis.
+                Condimentum aliquam,
                 amet, duis blandit orci, imperdiet eget sollicitudin elementum.
               </p>
 
-              <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+              <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
             </div>
           </div>
           <!-- end desc foot -->
@@ -234,16 +246,16 @@
           <div class="col-md-6 col-sm-12 flex__left">
             <ul class="foot__navlink">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="alur.html">Alur</a>
+                <a href="alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                <a href="daftar-vaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                <a href="kebijakan-privasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>
@@ -281,7 +293,8 @@
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- jquery 3.5.1 Gcdn scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <!-- bootstrap scripts -->
 
   <script src="/assets/js/scripts.js"></script>

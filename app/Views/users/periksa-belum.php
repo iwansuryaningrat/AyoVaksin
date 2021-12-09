@@ -65,7 +65,7 @@
   <div class="nav__section position-fixed">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
       <div class="container-fluid nav__fluid">
-        <a class="navbar-brand" href="index.html"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
+        <a class="navbar-brand" href="/"> <img src="/assets/img/logo-nav.svg" alt="ayo-vaksin-logo-nav" class="brand__logo" /></a>
         <!-- end navbar brand -->
 
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,22 +76,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar__nav ms-auto">
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" aria-current="page" href="index.html"><span>Home</span></a>
+              <a class="nav-link nav__link" aria-current="page" href="index"><span>Home</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="alur.html"><span>Alur</span></a>
+              <a class="nav-link nav__link" href="alur"><span>Alur</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="daftar-vaksin.html"><span>Daftar Vaksin</span></a>
+              <a class="nav-link nav__link" href="daftar-vaksin"><span>Daftar Vaksin</span></a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link nav__link" href="kebijakan-privasi.html"><span>Kebijakan Privasi</span></a>
+              <a class="nav-link nav__link" href="kebijakan-privasi"><span>Kebijakan Privasi</span></a>
             </li>
           </ul>
           <!-- end navbar nav -->
 
           <div class="navbar-nav">
-            <a href="register.html" class="nav-link nav__link btn__nav">Login / Register</a>
+            <a href="login-akun" class="nav-link nav__link btn__nav">Login</a>
           </div>
           <!-- end navbar nav btn nav -->
         </div>
@@ -120,7 +120,7 @@
         <div class="deskripsi">
           <p>Lakukan vaksinasi, agar dapat mempercepat pandemi Covid-19 dan selamatkan ribuan nyawa!</p>
         </div>
-        <a href="daftar-vaksin.html">
+        <a href="daftar-vaksin">
           <div class="text-center mt-4">
             <div class="btn tombol">Saya ingin melakukan vaksinasi</div>
           </div>
@@ -135,7 +135,7 @@
       <div class="footer__section">
         <div class="row foot__top">
           <div class="col-sm-4 col-12 flex">
-            <a href="index.html" class="d-flex justify-content-start align-items-center">
+            <a href="index" class="d-flex justify-content-start align-items-center">
               <img class="foot__img" src="/assets/img/logo-foot.svg" alt="..." />
             </a>
           </div>
@@ -144,11 +144,13 @@
           <div class="col-sm-8 col-12 d-flex justify-content-end">
             <div class="foot__content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget in faucibus sed ullamcorper risus aliquam senectus nulla. Nullam lacus donec gravida massa a malesuada rhoncus. In sit orci, massa mollis. Condimentum aliquam,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget in faucibus sed ullamcorper risus aliquam
+                senectus nulla. Nullam lacus donec gravida massa a malesuada rhoncus. In sit orci, massa mollis.
+                Condimentum aliquam,
                 amet, duis blandit orci, imperdiet eget sollicitudin elementum.
               </p>
 
-              <a class="main__btn btn__saran mt-3" href="saran.html">Kotak Saran</a>
+              <a class="main__btn btn__saran mt-3" href="saran">Kotak Saran</a>
             </div>
           </div>
           <!-- end desc foot -->
@@ -161,16 +163,16 @@
           <div class="col-md-6 col-sm-12 flex__left">
             <ul class="foot__navlink">
               <li>
-                <a href="index.html">Home</a>
+                <a href="index">Home</a>
               </li>
               <li>
-                <a href="alur.html">Alur</a>
+                <a href="alur">Alur</a>
               </li>
               <li>
-                <a href="daftar-vaksin.html">Daftar Vaksin</a>
+                <a href="daftar-vaksin">Daftar Vaksin</a>
               </li>
               <li>
-                <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                <a href="kebijakan-privasi">Kebijakan Privasi</a>
               </li>
             </ul>
             <p class="font__second">Save yourself to save others.</p>
@@ -208,7 +210,8 @@
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- jquery 3.5.1 Gcdn scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <!-- bootstrap scripts -->
 
   <script src="/assets/js/scripts.js"></script>
