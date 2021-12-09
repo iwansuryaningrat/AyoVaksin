@@ -7,8 +7,7 @@
   <div class="container">
     <div class="header__content">
       <h1 class="header__mb">Alur Pendaftaran Vaksin</h1>
-      <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis quod
-        doloremque aut iure corporis perspiciatis pariatur quaerat, optio, voluptatibus harum quidem.</p>
+      <p class="desc__header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis quod doloremque aut iure corporis perspiciatis pariatur quaerat, optio, voluptatibus harum quidem.</p>
     </div>
     <!-- end header content -->
   </div>
@@ -104,8 +103,7 @@
               <div class="alur__right">
                 <h5>Langkah - langkah:</h5>
                 <ol>
-                  <li>Disediakan berbagai informasi mengenai pelaksanaan vaksinasi (sentra vaksin), silahkan pilih
-                    sesuai dengan kebutuhan Anda</li>
+                  <li>Disediakan berbagai informasi mengenai pelaksanaan vaksinasi (sentra vaksin), silahkan pilih sesuai dengan kebutuhan Anda</li>
                   <li>Setiap sentra vaksin memuat informasi sebagai berikut :</li>
                   <ul>
                     <li>Tanggal pelaksaan vaksin</li>
@@ -143,9 +141,7 @@
         </a>
         <div class="collapse" id="faq1">
           <div class="qb__body">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et
-              nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero
-              natus. Illum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero natus. Illum.</p>
           </div>
         </div>
       </div>
@@ -159,9 +155,7 @@
         </a>
         <div class="collapse" id="faq2">
           <div class="qb__body">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et
-              nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero
-              natus. Illum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero natus. Illum.</p>
           </div>
         </div>
       </div>
@@ -175,9 +169,7 @@
         </a>
         <div class="collapse" id="faq3">
           <div class="qb__body">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et
-              nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero
-              natus. Illum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero natus. Illum.</p>
           </div>
         </div>
       </div>
@@ -191,9 +183,7 @@
         </a>
         <div class="collapse" id="faq4">
           <div class="qb__body">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et
-              nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero
-              natus. Illum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, alias. Dolore quos ad quo. Et nostrum dolorum culpa esse dolores assumenda cupiditate voluptatibus aut tempora, rem distinctio libero natus. Illum.</p>
           </div>
         </div>
       </div>

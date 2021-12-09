@@ -53,6 +53,8 @@
     <!-- font-awesome styles icon -->
 
     <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <link rel="stylesheet" href="/assets/css/alur-styles.css" />
     <!-- custom styles -->
 
     <!-- Favicon  -->
