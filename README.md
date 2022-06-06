@@ -1,6 +1,6 @@
-# 💉 AyoVaksin Project
+# 💉 Admin AyoVaksin Project
 
-AyoVaksin merupakan aplikasi berbasis web yang digunakan untuk membantu proses vaksinasi dapat berjalan lancar dan mudah untuk mengakses vaksinasi yang tersedia. AyoVaksin (Front End) ini dibuat dengan **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, **JavaScript**, **Bootstrap v.5** etc.
+Admin AyoVaksin merupakan aplikasi berbasis web yang digunakan untuk mengelola website AyoVaksin. Admin AyoVaksin ini dibuat dengan **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, **JavaScript**, **PHP**, **CodeIginter4**,**Bootstrap v.5** etc.
 
 ## 📛 Badges
 
